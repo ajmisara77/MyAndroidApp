@@ -8,6 +8,5 @@ import androidx.core.view.WindowInsetsCompat
 import isim.ia2td4.mymoyenne.R
 data class Matiere(
     val id: Int,
-    var nom: String,
-    val notes: MutableList<Note> = mutableListOf()
+    var nom: String
 )

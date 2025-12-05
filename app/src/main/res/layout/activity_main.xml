@@ -9,7 +9,9 @@
         android:id="@+id/btnAjouterMatiere"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ajouter une matière" />
+        android:text="Ajouter une matière"
+        android:layout_marginTop="50dp"
+        />
 
     <ListView
         android:id="@+id/listViewMatieres"
@@ -23,7 +25,9 @@
         android:layout_height="wrap_content"
         android:text="Moyenne générale : 0.0"
         android:textSize="18sp"
-        android:padding="8dp" />
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        />
 
 </LinearLayout>
 

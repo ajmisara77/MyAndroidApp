@@ -8,5 +8,6 @@ import androidx.core.view.WindowInsetsCompat
 import isim.ia2td4.mymoyenne.R
 
 data class Note(
+    val id: Int,
     var valeur: Double
 )

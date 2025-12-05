@@ -12,13 +12,15 @@
         android:textStyle="bold"
         android:padding="8dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" />
 
     <Button
         android:id="@+id/btnAjouterNote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ajouter une note" />
+        android:text="Ajouter une note"
+        android:layout_marginTop="30dp"/>
 
     <ListView
         android:id="@+id/listViewNotes"
