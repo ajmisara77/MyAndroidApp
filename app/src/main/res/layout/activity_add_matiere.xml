@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nom de la matière"
-        android:paddingTop="32dp"
+        android:paddingTop="@dimen/layout_paddingtop"
         />
 
     <Button
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ajouter"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="@dimen/layout_margintop"
         />
 
 </LinearLayout>
